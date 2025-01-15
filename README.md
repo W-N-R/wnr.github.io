@@ -26,8 +26,8 @@ Driven by the vision of integrating technology with commerce for societal good, 
 
 **********
 
-<h3>What I Do</h3><br>
-<h4>1. WNR Production Studio:</h4><br>
+<h3>What I Do</h3>
+<h4>1. WNR Production Studio:</h4>
 As the <b>CEO</b>of <b>WNR Production Studio</b>, I manage all projects related to animational movies, VFX, and 3D movies. My work merges creativity with advanced technology, creating memorable visual experiences.
 
 <h4>2. Web Developer:</h4>
@@ -38,7 +38,7 @@ I specialize in logo design, 3D modeling, and producing professional-quality vis
 
 **************
 
-<h3>Portfolio:</h3><br>
+<h3>Portfolio:</h3>
 <h4>1. WNR Animations:</h4>
 Directed and produced a 3D animated movie using Blender, incorporating realistic VFX and dynamic storytelling.
 
