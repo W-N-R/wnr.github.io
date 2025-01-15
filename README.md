@@ -60,4 +60,5 @@ Coming soon! Stay tuned for insights into electrical engineering, robotics, and 
 
 <h3>Get in Touch</h3>
 I’m always open to discussing projects, collaborations, or new ideas. Feel free to reach out via email or connect with me on GitHub and Instagram.
+
 **********
