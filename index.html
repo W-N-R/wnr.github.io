@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Waleed - Electrical Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+
+        body {
+            font-family: 'Roboto', 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(90deg, #000000, #757272fb ,#000000, #757272fb , #000000);
+            color: #ffffff;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(30px); opacity: 0; }
+            to { transform: translateY(0); opacity: 2; }
+        }
+        @keyframes scaleUp {
+            from { transform: scale(0.5); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+        header {
+            width: 85%;           /* Define the width of the container */
+            margin: 0 auto;       /* Centers horizontally */
+            position: relative;
+            top: auto;            /* Move down 50% of the viewport height*/
+            background: linear-gradient(90deg,  #091e57 ,#000000, #091e57);
+            color: #fff;
+            text-align: center;
+            padding: 50px;
+            border-radius:  80px;
+            box-shadow: 0 30px 60px rgba(0, 0, 10, 08);
+            animation: fadeIn 0.7s ease-in-out;
+        }
+        header h1 {
+            font-size: 10em;
+            color: #fbff02;
+            margin: 0;
+        }
+        header h4 {
+            font-size: 3em;
+            color: #e1fa00;
+            margin: 0;
+        }
+        header h2 {
+            font-size: 5em;
+            color: #03eeff;
+            margin: 0;
+        }
+        header h3 {
+            font-size: 3.3em;
+            color: #fffffece;
+            margin: 0;
+        }
+        header p {
+            font-size: 3em;
+            margin-top: 15px;
+        }
+        .container {
+            background: linear-gradient(90deg,  #0c225e ,#000000, #0c225e);
+            border-radius: 43px;
+            width:  80%;
+            max-width: 81%;
+            margin: 10px auto;
+            padding: 10px;
+            display: grid;
+            gap: 20px;
+            box-shadow: 0 30px 60px rgba(0, 0, 10, 08);
+            grid-template-columns: repeat(auto-fit, minmax(80%, 1fr));
+        }
+        .card {
+            background: #1e1e1e;
+            border-radius: 40px;
+            box-shadow: 0 24px 48px rgba(0, 0, 0, 0.753);
+            padding: 100;
+            transition: transform 0.5s;
+            box-shadow: 0 60px 120px rgba(0, 0, 10, 08);
+            animation: slideIn 4s pop-up;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 30px rgb(255, 251, 2);
+        }
+        .card h2 {
+            font-size: 5em;
+            color: #1e88e5;
+            margin-bottom: 10px;
+            border-bottom: 3px solid #1e88e5;
+            display: inline-block;
+            padding-bottom: 30;
+        }
+        .card p, .card ul {
+            font-size: 3.5em;
+            line-height: 1.5;
+            margin-bottom: 30px;
+            animation: scaleUp 02s morph;
+        }
+        ul {
+            list-style: none;
+            padding: 20;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        ul li strong {
+            color: #8fe51e;
+        }
+        a {
+            color: #4194d8;
+            text-decoration: none;
+            transition: color 01s;
+        }
+        a:hover {
+            color: #62aae6;
+        }
+        footer {
+            width:  85%;
+            margin: 0 auto;
+            text-align: center;
+            background: linear-gradient(90deg,  #0c225e ,#000000, #0c225e);
+            color: #fff;
+            padding: 40px;
+            border-radius: 70px;
+            margin-top: 50px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 05);
+            animation: fadeIn 0.9s ease-in-out;
+        }
+        footer a {
+            color: #ffcc00;
+        }
+        .image {
+            margin: 0 auto; 
+            width: 880px;
+            overflow: hidden;
+            object-fit: cover;
+            /* margin-left: 41%;    (commenting because i have aligned the image into ceter already by margin: 0 auto;)
+            margin-right: 55%;  */
+            border-radius: 150px;
+            box-shadow: 0 24px 48px rgb(255, 251, 2);
+            padding: 100;
+        }
+        
+
+        .button-class_resume {
+			background-color: rgb(255, 251, 2);
+			border: #000000;
+			color: rgb(0, 0, 0);
+			padding: 20px 40px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 70px;
+			margin: 8px 4px;
+			cursor: pointer;
+			border-radius: 100px;
+		}
+        
+        
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            display: inline-block;
+            width: 80px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            background: #1e1e1e;
+            color: #64b5f6;
+            border-radius: 70%;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+            transition: background 0.2s, transform 0.5s;
+        }
+        .social-icons a:hover {
+            background: #64b5f6;
+            color: #1e1e1e;
+            transform: translateY(-3px);
+        }
+
+
+        @media (max-width: 768px) {
+    header {
+        width: 90%; /* Adjust width for smaller screens */
+        padding: 20px;
+    }
+    header h1 {
+        font-size: 3em; /* Reduce heading font size */
+    }
+    header h2 {
+        font-size: 2em;
+    }
+    header h3 {
+        font-size: 1.5em;
+    }
+    header p {
+        font-size: 1em;
+    }
+    .image {
+        width: 80%; /* Ensure image adapts */
+        max-width: 300px; /* Limit maximum width for smaller screens */
+    }
+    .container {
+        max-width: 90%; /* Adjust container width */
+        grid-template-columns: 1fr; /* Single-column layout */
+    }
+    .card {
+        padding: 10px;
+    }
+    .card h2 {
+        font-size: 1.5em;
+    }
+    .card p, .card ul {
+        font-size: 1em;
+    }
+    footer p h1 {
+        font-size: 1em;
+    }
+    .button-class_resume {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+    .social-icons a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 0.8em;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="resume.html" class="button-class_resume" target="_blank">Resume</a>
+        <div class="image">
+        <img src="insta.jpg" alt="wnr"> WNR
+    </div>
+        <h1><br>Muhammad Waleed</h1>
+        <p><h2>Electrical Engineer</h2> <h3>| Driven by Passion, Powered by Innovation |</h3></p>
+
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>Contact Information x (Bio)</h2>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:waleednaeem133@gmail.com">waleednaeem133@gmail.com</a></li>
+                <li><strong>Phone:</strong> <a href="tel:+923268666254">+92 326 8666254</a></li>
+                <li><strong>Birthday:</strong> January 29, 2007</li>
+                <li><strong>Location:</strong> Lahore, Punjab, Pakistan</li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/W-N-R" target="_blank">github.com/W-N-R</a></li>
+                <li><strong>Instagram:</strong> <a href="https://www.instagram.com/w.n.r..wali..01/" target="blank">@w.n.r..wali._.01</a></li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>About Me</h2>
+            <p>Greetings! I'm <strong>Muhammad Waleed</strong>, a passionate Electrical Engineer with expertise in robotics, power generation, and innovative ideas. My journey includes skills in graphic designing, web development, Blender movie studio, video editing, logo designing, and 3D modeling with AutoCAD.</p>
+            <p>Driven by the vision of integrating technology with commerce for societal good, I aspire to create impactful and innovative solutions.</p>
+        </div>
+
+        <div class="card">
+            <h2>What I Do</h2>
+            <ul>
+                <li><strong>WNR Production Studio:</strong> I am the <b>C E O</b> of <h3><b>W N R</b></h3> Production Studio. With utmost dedication and hard work, I strive to fulfill my responsibilities to the best of my abilities.Managing projects related to animational movies, VFX, and 3D movies.</li>
+                <img src="WNR (2).png" width="400" height="400" alt ="WNR Production Studio" > 
+                <li><strong>Web Developer:</strong> Designing professional, responsive websites tailored to client needs.</li>
+                <li><strong>Graphic Designer:</strong> Specializing in logo design, 3D modeling, and professional-quality visual content.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Portfolio</h2>
+            <ul>
+                <li><strong>WNR Animations:</strong> Directed and produced a 3D animated movie using Blender.</li>
+                <li><strong>SOFTECH Logo Design:</strong> Created a winning logo blending modern aesthetics with technical elements.</li>
+                <img src="softech.png" width="300" height="200" alt="SOFTECH">  <br>   S O F T E C H 
+                <li><strong>Website Development:</strong> Designed multiple custom websites focusing on user experience.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Testimonials</h2>
+            <p><em>"Muhammad Waleed's expertise in electrical engineering and his innovative mindset have been transformative."</em><br><strong>  Client Name</strong></p>
+            <p><em>"As the CEO of WNR Production Studio, Waleed demonstrates exceptional leadership and creativity."</em><strong><b><br>Colleague Name</b><br> </strong>
+            Azher Bashir , Umair amjad & Haseeb And the most honourable person  <h4>Usman Hassan</h4></p>
+        </div>
+
+        <div class="card">
+            <h2>Blog & Insights</h2>
+            <p>Coming soon! Stay tuned for insights into electrical engineering, robotics, and creative design.</p>
+        </div>
+
+        <div class="card">
+            <h2>Get in Touch</h2>
+            <p>I’m always open to discussing projects, collaborations, or new ideas. Feel free to reach out via email or connect with me on GitHub and Instagram.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p><h1>&copy; 2025 Muhammad Waleed | All Rights Reserved</h1></p>
+        <div class="social-icons">
+            <a href="https://github.com/W-N-R" target="_blank">GitHub</a>
+            <a href="https://www.instagram.com/w.n.r..wali..01/" target="_blank">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>
